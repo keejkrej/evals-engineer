@@ -1,0 +1,15 @@
+{
+  "name": "main",
+  "cases": [
+    {"id": "c0", "passed": true, "latency_ms": 120, "cost_usd": 0.01},
+    {"id": "c1", "passed": true, "latency_ms": 110, "cost_usd": 0.01},
+    {"id": "c2", "passed": true, "latency_ms": 130, "cost_usd": 0.01},
+    {"id": "c3", "passed": true, "latency_ms": 100, "cost_usd": 0.01},
+    {"id": "c4", "passed": true, "latency_ms": 140, "cost_usd": 0.01},
+    {"id": "c5", "passed": true, "latency_ms": 115, "cost_usd": 0.01},
+    {"id": "c6", "passed": true, "latency_ms": 125, "cost_usd": 0.01},
+    {"id": "c7", "passed": true, "latency_ms": 118, "cost_usd": 0.01},
+    {"id": "c8", "passed": true, "latency_ms": 122, "cost_usd": 0.01},
+    {"id": "c9", "passed": true, "latency_ms": 128, "cost_usd": 0.01}
+  ]
+}

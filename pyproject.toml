@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evals-engineer"
+version = "1.0.0"
+description = "Offline eval harness for agent quality: trajectory grading, calibrated judges, RAG gates, and regression control."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+evals = "evals_engineer.cli:main"
+
+[project.entry-points.pytest11]
+evals_engineer = "evals_engineer.plugin"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"

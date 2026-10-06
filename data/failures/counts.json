@@ -1,0 +1,9 @@
+{
+  "format_break": 71,
+  "hallucinated_entity": 72,
+  "instruction_drift": 72,
+  "missed_abstention": 71,
+  "over_refusal": 71,
+  "tokenization_edge": 72,
+  "tool_misuse": 71
+}
